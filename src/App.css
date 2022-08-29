@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@300;400;700;900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --white: #fff;
+  --blue: #0290ff;
+  --blueVar1: #4386bf;
+  --warmGrey: #888;
+  --black: #121212;
+  --lightBlack: #2a2a2a;
+  --borderLines: #e8e8e8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: var(--bgc);
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  padding: 1.25rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--blue);
+  box-shadow: 1px 1px 5px 0 #05070aad;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+header .feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.feature i {
+  width: 1.25rem;
+  color: var(--lightBlack);
+}
+
+.crypto-list-container {
+  padding: 1.875rem 1.25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 30px;
+}
+
+.search-crypto {
+  border: none;
+  border-radius: 4px;
+  width: 60%;
+  padding: 8px 15px;
+  font-size: 1.25rem;
+  color: rgb(184, 179, 179);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.712);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 12.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.712);
+  text-align: center;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card i {
+  position: absolute;
+  top: 1px;
+  right: 3px;
+  color: var(--blue);
+}
+
+.card img {
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.322);
+}
+
+.card span {
+  color: var(--blueVar1);
 }
