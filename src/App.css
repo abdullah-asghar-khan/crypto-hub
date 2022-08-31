@@ -34,7 +34,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: var(--pink);
-  box-shadow: 0 0 10px -2 #05070aad;
+  box-shadow: 0 0 10px -2px #05070aad;
 }
 
 .logo span {
