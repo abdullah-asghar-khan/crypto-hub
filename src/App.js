@@ -11,6 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<CryptoContainer />} />
+        <Route path=":cryptoId" exact="true" element={<CryptoDetails />} />
       </Routes>
     </div>
   );
