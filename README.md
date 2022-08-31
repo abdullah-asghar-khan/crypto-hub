@@ -1,6 +1,6 @@
 # Project Name :  Crypto-Hub App
 
-> Crypto-hub is a web application for a cryptocurrencies that provides information about the top 100 most used cryptocurrencies in the worlds.
+> Crypto-hub is a web application for a cryptocurrencies that provides information about the most used cryptocurrencies in the worlds.
 
 ## Video Description of the project
 
@@ -15,7 +15,7 @@
 
 ## Live Demo
 
- - Click [Here]() To open the live demo
+ - Click [Here](https://quiet-faun-1c541c.netlify.app) To open the live demo
 
 ## Getting Started
 
