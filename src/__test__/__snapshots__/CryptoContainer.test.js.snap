@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test crytoContainer test that crytoContainer renerred correctly 1`] = `
+<div
+  className="crypto-list-container"
+>
+  <input
+    className="search-crypto"
+    onChange={[Function]}
+    placeholder="Search..."
+    type="text"
+    value=""
+  />
+  <div
+    className="card-container"
+  />
+</div>
+`;

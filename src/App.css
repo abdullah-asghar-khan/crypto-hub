@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@300;400;700;900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --pink: #ec4c8a;
+  --pinkShade1: #fb5192;
+  --pinkShade2: #e94a88;
+  --pinkShade3: #cf4277;
+  --blueVar1: #4386bf;
+  --warmGrey: #888;
+  --black: #121212;
+  --lightBlack: #2a2a2a;
+  --borderLines: #e8e8e8;
+}
+
+body {
+  background-color: var(--pinkShade1);
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  padding: 1.25rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--pink);
+  box-shadow: 0 0 10px -2px #05070aad;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+header .feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.feature i {
+  width: 1.25rem;
+  color: var(--white);
+}
+
+.crypto-list-container {
+  padding: 1.875rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.search-crypto {
+  border: none;
+  border-radius: 4px;
+  width: 60%;
+  padding: 4px 15px;
+  font-size: 1rem;
+  color: var(--black);
+  box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.712);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+  height: 9.375rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 10px -3px rgba(0, 0, 0, 0.712);
+  text-align: center;
+  padding: 10px;
+}
+
+.card i {
+  position: absolute;
+  top: 1px;
+  right: 3px;
+}
+
+.card img {
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.322);
+}
+
+.card span {
+  color: var(--white);
+}
+
+.crypto-info-head {
+  background-color: var(--pinkShade1);
+}
+
+.go-back {
+  padding-left: 1.25rem;
+}
+
+.go-back svg {
+  margin: 0.5rem 0;
+  color: var(--white);
+}
+
+.crypto-info-head > div {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+  align-items: center;
+}
+
+.name-price {
+  flex: 1;
+  padding-left: 1rem;
+}
+
+.name-price > span {
+  font-size: 1rem;
+  color: var(--white);
+}
+
+.name-price > span:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.details-icon img {
+  width: 100px;
+}
+
+.crypto-info div {
+  display: flex;
+  padding: 1.25rem;
+  justify-content: space-between;
+  background-color: var(--pinkShade2);
+  color: var(--white);
+}
+
+.crypto-info div:nth-child(2n-2) {
+  background-color: var(--pinkShade3);
+}
+
+.get-info {
+  justify-content: flex-start !important;
+  color: var(--white) !important;
+}
+
+.get-info a {
+  color: var(--white) !important;
+  margin-left: 1rem;
+}
