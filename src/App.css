@@ -109,7 +109,7 @@ header .feature {
 }
 
 .card span {
-  color: var(--blueVar1);
+  color: var(--white);
 }
 
 .crypto-info-head {
